@@ -1,0 +1,49 @@
+[33mcommit 1783af0635c89b1a5763c267857a5fed148279d8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Marwan Rasamny <mrasamny@desu.edu>
+Date:   Tue Sep 26 16:36:09 2023 +0000
+
+    added link to README
+
+[33mcommit 831aaa57220311305a88bd78d6212430e8bc28de[m
+Author: Marwan Rasamny <mrasamny@desu.edu>
+Date:   Sat Sep 23 18:05:55 2023 +0000
+
+    fixed the word GitHub
+
+[33mcommit 54355a8f4dfa9a3c913e66683467e97586f780ba[m
+Author: Marwan Rasamny <mrasamny@desu.edu>
+Date:   Sat Sep 23 18:01:57 2023 +0000
+
+    added make cmd to test script.
+
+[33mcommit ce8f57d13e49ffd4b4c383ecc84de70df72287ff[m
+Author: Marwan Rasamny <mrasamny@desu.edu>
+Date:   Sat Sep 23 17:25:46 2023 +0000
+
+    modified README file
+
+[33mcommit 8149ab76a8c790a0b768623d9f0c8f97a7f8fc57[m
+Author: Marwan Rasamny <mrasamny@desu.edu>
+Date:   Sat Sep 23 16:39:19 2023 +0000
+
+    added test script
+
+[33mcommit 982df676c8fd6a2dfd48ad24ff0740e06885745e[m
+Author: mrasamny <mrasamny@desu.edu>
+Date:   Wed Sep 28 15:33:50 2022 -0400
+
+    Update README.md
+    
+    added a sentence to submission section
+
+[33mcommit 9e0c636b80976be5e3b08176a267f2badce3c5e8[m
+Author: mrasamny <mrasamny@desu.edu>
+Date:   Tue Sep 27 12:57:41 2022 -0400
+
+    Add files via upload
+
+[33mcommit f5be5671476784992baf076455958522f4920906[m
+Author: mrasamny <mrasamny@desu.edu>
+Date:   Tue Sep 27 01:53:07 2022 +0000
+
+    first commit
