@@ -11,6 +11,8 @@ char* mysteryExplode(const char* str)
 {
     int length = strlen(str);
     if (length == 0) return NULL;
+
     int newSize = (length * (length +1)) /2;
+    char* exploded = (char*)malloc(newSize + 1);
     
 }
