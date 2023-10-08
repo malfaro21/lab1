@@ -20,6 +20,12 @@ char* readString(char* fileName)
             buffer[len -1] = '\0';
             len--;
         }
+        resultString = realloc(buffer, len +1);
+        if(!resultString){
+            free(buffer);
+            fclose(file);
+            return NULL;
+        }
     }
 }
 
