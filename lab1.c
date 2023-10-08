@@ -15,11 +15,10 @@ char* readString(char* fileName)
         free(buffer);
         return NULL;
     }
-    if(!fgets(buffer, MAX_LINE_LEN, fileptr)){
-        free(buffer);
-        fclose(fileptr);
-        return NULL;
-    }
+    fgets(buffer, MAX_LINE_LEN,fileptr);
+    fclose(fileptr);
+    buffer[strcspn(buffer, "\n")] = '\0';
+    return buffer;
 }
 
 char* mysteryExplode(const char* str)
