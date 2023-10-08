@@ -16,6 +16,10 @@ char* readString(char* fileName)
     char *resultString = NULL;
     if(fgets(buffer, 100, file)){
         size_t len = fileNamelen(buffer);
+        if(buffer[len - 1] == '\n'){
+            buffer[len -1] = '\0';
+            len--;
+        }
     }
 }
 
