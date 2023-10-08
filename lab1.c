@@ -10,6 +10,11 @@ char* readString(char* fileName)
     if(!buffer){
         return NULL;
     }
+    FILE *fileptr = fopen(fileName, "r");
+    if(!fileptr){
+        free(buffer);
+        return NULL;
+    }
     
 }
 
