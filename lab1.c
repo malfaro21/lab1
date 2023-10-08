@@ -22,4 +22,6 @@ char* mysteryExplode(const char* str)
             exploded[j++] = str[k];
         }
     }
+    exploded[j] = '/0';
+    return exploded;
 }
