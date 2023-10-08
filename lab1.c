@@ -4,7 +4,10 @@
 
 char* readString(char* fileName)
 {
-    int main();
+    FILE *file = fopen(fileName, "r");
+    if(!file){
+        return NULL;
+    }
 }
 
 char* mysteryExplode(const char* str)
