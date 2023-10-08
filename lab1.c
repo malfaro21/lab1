@@ -2,32 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define MAX_LINE_LEN 100
+
 char* readString(char* fileName)
 {
-    FILE *file = fopen(fileName, "r");
-    if(!file){
-        return NULL;
-    }
-    char *buffer = (char *)malloc(100 * sizeof(char));
+    char* buffer = (char *)malloc(MAX_LINE_LEN);
     if(!buffer){
-        fclose(file);
         return NULL;
-    }
-    char *resultString = NULL;
-    if(fgets(buffer, 100, file)){
-        size_t len = fileNamelen(buffer);
-        if(buffer[len - 1] == '\n'){
-            buffer[len -1] = '\0';
-            len--;
-        }
-        resultString = realloc(buffer, len +1);
-        if(!resultString){
-            free(buffer);
-            fclose(file);
-            return NULL;
-        }
-    }else{
-        free(buffer);
     }
     
 }
