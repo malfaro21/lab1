@@ -17,7 +17,9 @@ char* mysteryExplode(const char* str)
     
     if(!exploded) return NULL;
     int j = 0;
-    for(int i=0; i<length; i++){
-        
+    for(int i = 0; i<length; i++){
+        for(int k = 0; k <= i; k++){
+            exploded[j++] = str[k];
+        }
     }
 }
