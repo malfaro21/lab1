@@ -28,5 +28,12 @@ char* mysteryExplode(const char* str)
     if(!ans){
         return NULL;
     }
-    
+    memset(ans, 0, len);
+    int pos = 0;
+    for(int c = 0; c< strlen(str); c++){
+        for(int i= 0; i <= c; i++){
+            ans[pos++] = str[i];
+        }
+    }
+    return ans;
 }
