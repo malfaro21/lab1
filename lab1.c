@@ -13,6 +13,10 @@ char* readString(char* fileName)
         fclose(file);
         return NULL;
     }
+    char *resultString = NULL;
+    if(fgets(buffer, 100, file)){
+        size_t len = fileNamelen(buffer);
+    }
 }
 
 char* mysteryExplode(const char* str)
