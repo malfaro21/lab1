@@ -8,6 +8,11 @@ char* readString(char* fileName)
     if(!file){
         return NULL;
     }
+    char *buffer = (char *)malloc(100 * sizeof(char));
+    if(!buffer){
+        fclose(file);
+        return NULL;
+    }
 }
 
 char* mysteryExplode(const char* str)
