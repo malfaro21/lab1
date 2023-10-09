@@ -13,3 +13,4 @@ main.o: main.c lab1.h
 
 clean:
 	rm -f *.o $(TARGET)
+	
